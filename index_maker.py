@@ -25,13 +25,13 @@ def generate_index(path, indent=0):
 def save_index_to_md(index, output_file):
     """Saves the generated index to a Markdown file."""
     with open(output_file, 'w') as f:
-        f.write("# Project Index\n\n")
+        f.write("# PYTHON CHEAT SHEET INDEX\n\n")
         f.write('\n'.join(index))
 
 if __name__ == "__main__":
     # Specify the path to your project folder
     project_folder = "./"  # Change this to your project folder path
-    output_file = "INDEX.md"  # Output file for the index
+    output_file = "README.md"  # Output file for the index
 
     # Generate the index
     index = generate_index(project_folder)
