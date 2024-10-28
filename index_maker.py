@@ -15,7 +15,7 @@ def generate_index(path, indent=0):
         # Check if the entry is a directory
         if os.path.isdir(full_path):
             # Add a link to the directory
-            index.append(' ' * indent + f"- [{entry}]({full_path}/README.md)")  # Assuming each directory has a README.md
+            index.append(' ' * indent + f"- [{entry}]({full_path}/README.md)".replace('\\','/'))  # Assuming each directory has a README.md
             # Recursively generate index for the directory
             index.extend(generate_index(full_path, indent + 2))
         else:

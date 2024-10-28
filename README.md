@@ -5,7 +5,7 @@
   - [Advanced_Data_Structures.md](./basics\Advanced_Data_Structures.md)
   - [BASICS.md](./basics\BASICS.md)
   - [Map_Filter_and_Reduce.md](./basics\Map_Filter_and_Reduce.md)
-  - [data_type](./basics\data_type/README.md)
+  - [data_type](./basics/data_type/README.md)
     - [README.md](./basics\data_type\README.md)
     - [dict.md](./basics\data_type\dict.md)
     - [list.md](./basics\data_type\list.md)
