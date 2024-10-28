@@ -1,5 +1,5 @@
 import os
-
+EXCLUDE_DIR=['.git']
 def generate_index(path, indent=0):
     """Recursively generates a Markdown index of files in the specified directory."""
     # Get a list of entries in the directory
@@ -9,6 +9,8 @@ def generate_index(path, indent=0):
     index = []
 
     for entry in entries:
+        if entry in EXCLUDE_DIR:
+            continue
         full_path = os.path.join(path, entry)
         # Check if the entry is a directory
         if os.path.isdir(full_path):
