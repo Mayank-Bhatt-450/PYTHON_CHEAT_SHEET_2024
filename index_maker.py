@@ -20,7 +20,7 @@ def generate_index(path, indent=0):
             index.extend(generate_index(full_path, indent + 2))
         else:
             # Add a link to the file
-            index.append(' ' * indent + f"- [{entry}]({full_path})")
+            index.append(' ' * indent + f"- [{entry}]({full_path})".replace('\\','/'))
 
     return index
 
