@@ -1,7 +1,7 @@
-
 # Python String Datatype - Complete Cheat Sheet
 
 ## 1. Creating Strings
+
 ```python
 # Single and double quotes
 s1 = 'Hello'
@@ -12,10 +12,11 @@ s3 = '''This is a
 multiline string'''
 
 # String with escape characters
-s4 = "He said, "Python is fun!""
+s4 = "He said, \"Python is fun!\""
 ```
 
 ## 2. String Slicing and Indexing
+
 ```python
 s = "Python"
 s[0]     # 'P' (first character)
@@ -25,6 +26,7 @@ s[::-1]  # 'nohtyP' (reverse the string)
 ```
 
 ## 3. Common String Methods
+
 ```python
 s = "hello world"
 
@@ -37,6 +39,7 @@ s.replace("world", "Python")  # "hello Python"
 ```
 
 ## 4. Built-in String Functions
+
 ```python
 # Length of a string
 len(s)          # 11
@@ -67,6 +70,7 @@ s.count("l")      # 3
 ```
 
 ## 5. String Formatting
+
 ```python
 name = "John"
 age = 30
@@ -82,6 +86,7 @@ f"{3.14159:.2f}"  # "3.14" (rounds to 2 decimal places)
 ```
 
 ## 6. String Join, Split, and Strip
+
 ```python
 # Splitting a string into a list of substrings
 s = "apple,banana,orange"
@@ -99,6 +104,7 @@ s.rstrip()    # "   hello" (removes trailing whitespace)
 ```
 
 ## 7. String Encoding and Decoding
+
 ```python
 # Encoding to bytes
 s = "Hello"
@@ -109,6 +115,7 @@ s_decoded = s_bytes.decode("utf-8")  # "Hello"
 ```
 
 ## 8. String Testing Methods
+
 ```python
 # Check if the string is printable
 s.isprintable()  # True
@@ -127,6 +134,7 @@ s.isascii()  # True (all characters are ASCII)
 ```
 
 ## 9. Escape Characters
+
 ```python
 \    # Backslash
 '    # Single quote
@@ -137,6 +145,7 @@ s.isascii()  # True (all characters are ASCII)
 ```
 
 ## 10. String Comparisons
+
 ```python
 # Comparison using ==, !=, <, >, etc.
 s1 = "abc"
@@ -146,6 +155,7 @@ s1.lower() == s2.lower()  # True (case-insensitive comparison)
 ```
 
 ## 11. Multiline Strings
+
 ```python
 # Triple quotes for multi-line strings
 multi_line_str = '''This is

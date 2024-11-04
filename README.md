@@ -19,5 +19,7 @@
   - [python_complete_cheat_sheet_extended.md](./basics/python_complete_cheat_sheet_extended.md)
   - [with.md](./basics/with.md)
 - [fastapi](./fastapi/README.md)
+  - [basic_cheat_sheet.md](./fastapi/basic_cheat_sheet.md)
 - [index_maker.py](./index_maker.py)
 - [pandas](./pandas/README.md)
+  - [basic_sheat_sheet.md](./pandas/basic_sheat_sheet.md)
